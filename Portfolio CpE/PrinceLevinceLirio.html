@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prince Levince Lirio - Portfolio</title>
+	<link rel="icon" type="image/x-icon" href="https://i.redd.it/4oi4k7tmi56z.png">
+	<link rel="stylesheet" href="style-portfolio.css">
+</head>
+<body>
+	<header class="header1">
+		<div class="logo1"> 
+		<a href="#home">
+			<img src="https://i.redd.it/4oi4k7tmi56z.png" alt="portlogo" class="logo-img"> 
+		</a>	
+		<a href="#home" class="headerlink">
+			&nbspPrince Levince Lirio's Portfolio
+		</a>
+		</div>
+		
+		<nav>
+			<ul class="nav-links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#abt">About me</a></li>
+				<li><a href="#cws">Coursework</a></li>
+				<li><a href="#pts">Projects</a></li>
+				<li><a href="#pj">Personal Journey</a></li>
+				<li><a href="#ci">Contact Information</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="home" class="hs">
+			<div class="home-content">
+				<p class="lbl1">
+						1ST YEAR COMPUTER ENGINEERING STUDENT
+					</p>
+
+					<h1>
+						Hi, I'm Prince Levince Lirio
+					</h1>
+
+					<h2>
+						A Freshman at Mapua University
+					</h2>
+
+					<p class="intro-description">
+						Hello! I'm Prince and I'm a First Year Student in Computer Engineering at Mapua University. As I continue my academic journey, I aim to develop my knowledge on the technical field, strengthen my critical thinking skills, improve my creativity, and explore how technology can create solutions.
+					</p>
+
+					<a href="#abt" class="hmb">
+						Explore My Portfolio
+					</a>
+				</div>
+
+				<div class="himg">
+					<img src="https://i.ibb.co/QFVkbKbt/8c165e69-3318-4177-bf77-9c2965a909bc-Edited.jpg" alt="Portrait of Prince Levince Lirio">
+				</div>
+
+			</section>
+
+			<section class="ts">
+				<h2>Building Skills. Shaping the Future.</h2>
+				<p>
+					Creating a bright future through creativity, innovation, and continuous learning.
+				</p>
+			</section>
+
+			<section id="abt" class="abts">
+				<h2>About Me</h2>
+				<p> Hi! I'm Prince Levince Lirio, a first-year Computer Engineering student at Mapua University Intramuros. I'm from Valenzuela City, and I'm an aspiring Computer Engineer. Although I'm a computer engineering student, my specialization lies in software specifically, databases and c# due to my strand during my senior high school years, the Information Communcations Technology (ICT) strand. I chose to study here in Mapua in computer engineering because of my interest in computers ever since I was a child and Mapua was my dream university ever since I was in high school. I aim to achieve great things and develop my skills, gain new experiences, meet new people, and improve myself both personally and academically. I look forward to exploring new opportunities and applying what I learn here in Mapua to create meaningful solutions in the future.</p>
+			</section>
+
+			<section id="cws" class="cwss">
+				<h2>Coursework</h2>
+				<p class="coursework-intro"> Here are some of the coursework and activities I've accomplished here in Mapua </p>
+
+				<div class="cwcn">
+
+					<div class="cwc">
+						<h3>Coursework 1</h3>
+						<p> Fitness For A Great Engineer – PATHFIT ON CPE CURRICULUM </p>
+
+						<iframe src="Work/coursework1.pdf" class="pdf-viewer" title="Coursework 1">
+						</iframe>
+					</div>
+					
+					<div class="cwc">
+						<h3>Coursework 2</h3>
+						<p>Reverse Engineering Analysis of Wireless Earbuds</p>
+						<iframe src="Work/coursework2.pdf" class="pdf-viewer" title="Coursework 2">
+						</iframe>
+					</div>
+
+					<div class="cwc">
+						<h3>Coursework 3</h3>
+						<p>Neuromorphic Computing</p>
+						<div class="video-container">
+							<iframe
+								src="https://www.youtube.com/embed/0gYa8QDKjwA" title="Coursework 3 Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+					</div>
+					
+					<div class="cwc">
+						<h3>Coursera Certificate</h3>
+						<p>Design Thinking for Engineers</p>
+						<iframe src="Work/coursera.pdf" class="pdf-viewer" title="Coursera">
+						</iframe>
+					</div>
+
+				</div>
+			</section>
+
+			<section id="pts" class="ptss">
+				<h2>My Projects</h2>
+
+				<div class="slider">
+					<div class="slide active">
+						<img src="images/project1.jpg" alt="CpE Project1">
+						<h3>Project 1 Title</h3>
+						<p>This project was given during the first semester of my first year college. In a group of 5, we had to pick an SDG and propose a solution for the chosen SDG using our creativity as computer engineers that we had to defend in a mock defense. <br>
+						</p>
+					</div>
+
+					<div class="slide">
+						<img src="https://i.ibb.co/0RZVLTyC/645880198-1492284199045119-407922100301436256-n.jpg" alt="ICT Work Immersion Project">
+						<h3>Ticketing System</h3>
+						<p>This project was given during the work immersion of my 12th grade. As a team of ICT students, we were tasked in creating a ticketing system using database and C# for booking tickets and seats at our school's musical play.<br>
+						The system used MySql for its database and C# Visual Studio as its programming language. <br>
+						The way it works is that people can choose the seats they want as long as its available. The UI shows each seat's position in our school's auditorium along with the stage or the screen at the top of it as a reference for the users. Once a person picked a seat, the color of the block in the UI will change, indicating that it can't be selected again and must choose a different seat or a different schedule. Additionally, this program was hosted using a local host in the school that was set up by our instructor or supervisor.
+						</p>
+					</div>
+					
+					<button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+					<button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+				</div>
+
+				<div class="dots">
+					<span class="dot active" onclick="currentSlide(0)"></span>
+					<span class="dot" onclick="currentSlide(1)"></span>
+				</div>
+			</section>
+
+			<script>
+				let slideIndex = 0;
+
+				function showSlide(index) {
+					const slides = document.querySelectorAll(".slide");
+					const dots = document.querySelectorAll(".dot");
+
+					if (index >= slides.length) {
+						slideIndex = 0;
+					} else if (index < 0) {
+						slideIndex = slides.length - 1;
+					} else {
+						slideIndex = index;
+					}
+
+					slides.forEach(slide => slide.classList.remove("active"));
+					dots.forEach(dot => dot.classList.remove("active"));
+
+					slides[slideIndex].classList.add("active");
+					dots[slideIndex].classList.add("active");
+				}
+
+				function changeSlide(direction) {
+					showSlide(slideIndex + direction);
+				}
+
+				function currentSlide(index) {
+					showSlide(index);
+				}
+			</script>
+
+			<section id="pj" class="pjs">
+				<h2>My Personal Journey</h2>
+
+				<div class="pj-container">
+
+					<div class="pj-image">
+						<img src="https://i.ibb.co/VYg5fHsG/0808d7f1-44d1-48bb-816e-1b240188ecd1.jpg" alt="College">
+					</div>
+
+					<div class="pj-content">
+						<h3>My First Three Months in College</h3>
+
+						<p>
+							In the past 3 months I've been a frosh here in Mapua, I can say that it was fun yet difficult. The tasks, the quizzes, all of it was not easy. Although its been difficult adapting to this new environment, thanks to my classmates, friends, and family, I was able to pick myself up and slowly adjust to these changes.
+						</p>
+
+						<p>
+							I faced the difficult reality of college where you have to constantly juggle between your personal and academic life. Personally, the biggest challenge was adapting but as I slowly move forward, I'm slowly finding college a lot more peaceful and easier than I first expected it to be. Although I admit that there are certain challenges other than adapting such as the insane amount of workload, stress, sleepless nights, and quizzes, I still found my way through to have time for myself, my family, and the person I love by balancing all my workload and managing my time well.
+						</p>
+
+						<p>
+							Overall, even if it was difficult, I can say that this program thus far, has been shaping me in multiple ways, by letting me use my creativity in multiple ways, allowing me to utilize my critical thinking skills, and ensuring strict time management. All these factors is why I believe this program has shaped me technically and personally during my time here in Mapua thus far.
+						</p>
+					</div>
+				</div>
+			</section>
+			
+			<section id="ci" class="cis">
+				<h2>Contact Information</h2>
+				<p class="ci-intro"> Contact or Reach out to me! </p>
+
+				<div class="ci-container">
+					<div class="ci-item">
+						<h3>LinkedIn</h3>
+						<p>https://www.linkedin.com/in/prince-levince-lirio-989130441</p>
+					</div>
+
+					<div class="ci-item">
+						<h3>Email</h3>
+						<p>princelevince@gmail.com</p>
+						<p>plalirio@mymail.mapua.edu.ph</p>
+					</div>
+
+					<div class="ci-item">
+						<h3>Contact Number</h3>
+						<p>09664615508</p>
+					</div>
+
+					<div class="ci-item">
+						<h3>Facebook</h3>
+						<p>Prince Levince Lirio</p>
+					</div>
+				</div>
+			</section>
+		</main>
+</body>
+</html>
