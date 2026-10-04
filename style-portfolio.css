@@ -740,6 +740,21 @@ nav {
     font-size: 15px;
 }
 
+.ci-item a {
+    color: #333;
+    text-decoration: none;
+    display: inline;
+    background: none;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+}
+
+.ci-item a:hover {
+    color: #0077b5;
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .cis {
         padding: 60px 5%;
