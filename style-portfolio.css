@@ -698,56 +698,64 @@ nav {
     padding: 80px 10%;
     background-color: #ffffff;
     text-align: center;
-    scroll-margin-top: 80px;
+    scroll-margin-top: 100px;
 }
 
 .cis h2 {
+    font-size: 28px;
+    color: #222222;
     margin-bottom: 15px;
 }
 
-.ci-intro {
-    color: #555;
-    margin-bottom: 40px;
-    line-height: 1.6;
+.cis > p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 45px;
 }
 
 .ci-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 25px;
-    max-width: 900px;
-    margin: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: start;
 }
 
 .ci-item {
     background-color: #f5f5f5;
     padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    overflow-wrap: anywhere;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 0;
+    height: auto;
 }
 
 .ci-item h3 {
-    margin-bottom: 15px;
-    font-size: 20px;
-    color: #222;
+    font-size: 22px;
+    color: #222222;
+    margin: 0 0 15px;
 }
 
 .ci-item p {
-    margin-bottom: 10px;
-    line-height: 1.6;
-    color: #444;
-    font-size: 15px;
+    font-size: 16px;
+    color: #444444;
+    margin: 15px 0;
+    overflow-wrap: anywhere;
 }
 
-.ci-item a {
-    color: #333;
+.ci-item a, .ci-item a:visited, .ci-item a:active {
+    color: #333333;
     text-decoration: none;
     display: inline;
     background: none;
     border: none;
     padding: 0;
+    margin: 0;
     box-shadow: none;
+    font: inherit;
 }
 
 .ci-item a:hover {
@@ -755,6 +763,7 @@ nav {
     text-decoration: underline;
 }
 
+/* MOBILE LAYOUT */
 @media (max-width: 768px) {
     .cis {
         padding: 60px 5%;
@@ -762,5 +771,10 @@ nav {
 
     .ci-container {
         grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .ci-item {
+        width: 100%;
     }
 }
