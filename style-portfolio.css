@@ -191,7 +191,7 @@ nav {
     margin-bottom: 30px;
 }
 
-.hmb {
+.hmb, .project-btn {
     display: inline-block;
     padding: 14px 24px;
 
@@ -206,7 +206,7 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.hmb:hover {
+.hmb:hover, .project-btn:hover {
     background-color: #666666;
 }
 
@@ -763,20 +763,4 @@ nav {
     .cis {
         padding: 60px 6%;
     }
-}
-
-.project-btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #333333;
-    color: white;
-    text-decoration: none;
-    border-radius: 3px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.project-btn:hover {
-    background-color: #666666;
 }
