@@ -772,9 +772,9 @@ nav {
     background-color: #333333;
     color: white;
     text-decoration: none;
-    border-radius: 3px; /* Slightly squared corners */
+    border-radius: 3px;
     font-weight: bold;
-    transition: 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 .project-btn:hover {
